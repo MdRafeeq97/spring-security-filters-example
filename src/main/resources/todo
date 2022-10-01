@@ -1,0 +1,2 @@
+1. create Account table and store patient(optional) and doctor(required) account details. use encryption/masking
+2. update transaction table, to add pateint and doctor account numbers

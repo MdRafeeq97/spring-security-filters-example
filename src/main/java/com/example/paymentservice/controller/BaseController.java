@@ -1,4 +1,4 @@
-package com.example.paymentservice;
+package com.example.paymentservice.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

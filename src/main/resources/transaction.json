@@ -1,0 +1,20 @@
+{
+  "TableName": "Transaction",
+  "AttributeDefinitions": [
+    {"AttributeName":  "transactionId", "AttributeType":  "S"},
+    {"AttributeName": "amount", "AttributeType": "N"},
+    {"AttributeName": "currency", "AttributeType": "S"},
+    {"AttributeName": "gateway", "AttributeType": "S"},
+    {"AttributeName": "paymentMode", "AttributeType": "S"},
+    {"AttributeName": "status", "AttributeType": "S"},
+    {"AttributeName": "patientId", "AttributeType": "S"},
+    {"AttributeName": "doctorId", "AttributeType": "S"}
+  ],
+  "KeySchema": [
+    {"AttributeName":  "transactionId", "KeyType":  "HASH"}
+  ],
+  "ProvisionedThroughput":  {
+    "ReadCapacityUnits": 10,
+    "WriteCapacityUnits": 10
+  }
+}
